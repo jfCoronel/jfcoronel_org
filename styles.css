@@ -200,6 +200,33 @@ nav {
   border: 1px solid transparent;
 }
 
+/* PWA badge */
+
+.pwa-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.pwa-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  background: #f0fdf4;
+  color: #16a34a;
+  border: 1px solid #bbf7d0;
+  width: fit-content;
+}
+
+.pwa-hint {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
 .btn-primary {
   background: var(--blue);
   color: #ffffff;
