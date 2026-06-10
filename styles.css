@@ -116,7 +116,31 @@ nav {
   font-size: 1.6rem;
   font-weight: 700;
   letter-spacing: -0.02em;
+  margin-bottom: 0.5rem;
+}
+
+.section-sub {
+  font-size: 0.875rem;
+  color: var(--text-muted);
   margin-bottom: 2rem;
+}
+
+.yt-link {
+  color: #cc0000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.yt-link:hover {
+  text-decoration: underline;
+}
+
+.yt-footer-link {
+  color: #cc0000;
+}
+
+.yt-footer-link:hover {
+  color: #aa0000;
 }
 
 /* GRID */
