@@ -65,13 +65,19 @@ nav {
 
 .hero {
   background: var(--blue);
-  padding: 5rem 2rem;
+  padding: 2.5rem 2rem;
   text-align: center;
 }
 
 .hero-content {
   max-width: 600px;
   margin: 0 auto;
+}
+
+.hero-icon {
+  width: 52px;
+  height: 52px;
+  margin-bottom: 1rem;
 }
 
 .hero-title {
